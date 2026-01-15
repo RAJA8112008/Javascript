@@ -1,4 +1,5 @@
-Name="Raja";
-console.log(Name);
-age=29;
-console.log(age);
+const student={
+    Name:"RAJA",
+    age:20,
+    Roll:2411002,
+}
