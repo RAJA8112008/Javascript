@@ -82,13 +82,20 @@
     // })
 
     //Practice question  square of arr using ForEach LOOP
-    let arr=[10,20,30,40,50];
-    let result=[];
-    arr.forEach((val)=>{
-    //    result.push(val*val);
-    console.log(val*val);
-    });
-    console.log(result);
+    // let arr=[10,20,30,40,50];
+    // let result=[];
+    // arr.forEach((val)=>{
+    // //    result.push(val*val);
+    // console.log(val*val);
+    // });
+    // console.log(result);
+
+    //MAP function
     
+    let arr=[1,2,3];
+    let newarr=arr.map((val)=>{
+        return val*val;
+    });
+    console.log(newarr);
 
 
