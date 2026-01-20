@@ -14,13 +14,18 @@
 // }
 // console.log("Size=",size);
 
-    //for in iterator
+    //->for in iterator
     let student={
         Name:"RajaKumar",
         age:20,
         cgpa:8.5,
         ispass:true
     };
+        //key printing
     for(let key in student){
         console.log("key=",key);
+    }
+    //key-> values printing
+    for(let val in student){
+        console.log("val=",student[val]);
     }
