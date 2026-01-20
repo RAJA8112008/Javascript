@@ -15,17 +15,22 @@
 // console.log("Size=",size);
 
     //->for in iterator
-    let student={
-        Name:"RajaKumar",
-        age:20,
-        cgpa:8.5,
-        ispass:true
-    };
-        //key printing
-    for(let key in student){
-        console.log("key=",key);
-    }
-    //key-> values printing
-    for(let val in student){
-        console.log("val=",student[val]);
+    // let student={
+    //     Name:"RajaKumar",
+    //     age:20,
+    //     cgpa:8.5,
+    //     ispass:true
+    // };
+    //     //key printing
+    // for(let key in student){
+    //     console.log("key=",key);
+    // }
+    // //key-> values printing
+    // for(let val in student){
+    //     console.log("val=",student[val]);
+    // }
+
+    //question : 1->100 counting printing
+    for(let i=0;i<=100;i++){
+        console.log("i=",i);
     }
