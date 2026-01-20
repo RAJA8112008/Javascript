@@ -23,9 +23,18 @@
       //Escape character to add Newlines ->\n
       //Tab space->\t
 
-      let str="HarshKumar";
-     str.toUpperCase();
-      console.log(str);
+    //   let str="  HarshKumar  ";
+    //  let val=str.toUpperCase();
+    //   console.log(val);
+       
+
+    // let str="  HarshKumar  ";
+    // str.trim();
+    // console.log(str);
+
+let str="  HarshKumar  ";
+ let val=str.trim();
+ console.log(val);
 
 
 
