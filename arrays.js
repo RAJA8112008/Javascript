@@ -8,6 +8,8 @@ let items=["Bloomburg","Microsoft","Google","GFG"];
  console.log(items);
 
  //Add Amazon at End  
+ //1. push
  items.push('Amazon');
  console.log(items);
+ //2. Unshift->adds at First position
   
