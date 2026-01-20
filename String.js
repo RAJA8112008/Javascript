@@ -42,11 +42,18 @@
 
 
 
-         /* Practice question*/
+         /* Practice question
 //userName=Raja ,then @Raja4 (@+userName+sizeof username)
   let userName=prompt("Enter the Name:");
    let output="@"+userName+userName.length;
    console.log(output); 
+   */
+  //splice methode
+  let arr=[1,2,3,4,5,6,7,8];
+  arr.splice(1,1,101);
+//   splice(startingindex,deletePosition count,addition values)
+
+
 
 
 
