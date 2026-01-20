@@ -36,10 +36,17 @@
 //  let val=str.trim();
 //  console.log(val);
 
+//   let str="Hello";
+//   let val=str.replace('H','y');
+//   console.log(val);
 
-  let str="Hello";
-  let val=str.replace('H','y');
-  console.log(val);
+
+
+         /* Practice question*/
+//userName=Raja ,then @Raja4 (@+userName+sizeof username)
+  let userName=prompt("Enter the Name:");
+   let output="@"+userName+userName.length;
+   console.log(output); 
 
 
 
