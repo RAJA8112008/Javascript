@@ -15,27 +15,27 @@
 // console.log("Size=",size);
 
     //->for in iterator
-    // let student={
-    //     Name:"RajaKumar",
-    //     age:20,
-    //     cgpa:8.5,
-    //     ispass:true
-    // };
-    //     //key printing
-    // for(let key in student){
-    //     console.log("key=",key);
-    // }
-    // //key-> values printing
-    // for(let val in student){
-    //     console.log("val=",student[val]);
-    // }
+    /* let student={
+        Name:"RajaKumar",
+        age:20,
+        cgpa:8.5,
+        ispass:true
+    };
+        //key printing
+    for(let key in student){
+        console.log("key=",key);
+    }
+    //key-> values printing
+    for(let val in student){
+        console.log("val=",student[val]);
+    } */
 
-    //question : 1->100 counting printing / Even number /odd number
-    // for(let i=0;i<=100;i++){
-    //     console.log("i=",i);
-    // }
+   /* question : 1->100 counting printing / Even number /odd number
+    for(let i=0;i<=100;i++){
+        console.log("i=",i);
+    }
 
-    //Even Number
+    Even Number
     for(let i=0;i<100;i++){
         if(i%2==0){
             console.log("Even number=",i);
@@ -44,3 +44,11 @@
         }
       
     }
+     */
+    //Question 2 : Guess Number Game
+    let GameNumber=0;
+    let userNum=prompt("Guess the Number=:");
+    while(GameNumber!=userNum){
+        userNum=prompt("Guess the Number again=:");
+    }
+    console.log("Congratulations,You Guess correct Number");
