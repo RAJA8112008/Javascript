@@ -21,13 +21,21 @@
 
                         /* practice  Question ->give unique name each div*/
 
-     let divs= document.querySelectorAll('.box');
-        let index=1;
+    //  let divs= document.querySelectorAll('.box');
+    //     let index=1;
     // for(let div of divs){
     //  div.innerText=`first div ${index}`;
     //  index++;
     //  }
-    divs.forEach((div)=>{
-         div.innerText=`first div ${index}`;
-          index++;
-    })
+                //OR
+
+    // divs.forEach((div)=>{
+    //      div.innerText=`first div ${index}`;
+    //       index++;
+    // })
+
+
+             //Creationsome Tags using JS
+             let button=document.createElement("button");
+               button.innerText='Click me';
+                 //

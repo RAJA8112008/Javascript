@@ -5,4 +5,14 @@
     margin:5px;
     text-align: center;
    background-color: aquamarine;
+   padding-left: 50px;
+}
+#parentBox{
+ height: 400px;
+ width: 400px;
+ border: 2px solid black;
+ text-align: center;
+ background-color: beige;
+ 
+
 }
