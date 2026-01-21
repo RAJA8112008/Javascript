@@ -92,10 +92,10 @@
 
     //MAP function
     
-    let arr=[1,2,3];
-    let newarr=arr.map((val)=>{
-        return val*val;
-    });
-    console.log(newarr);
+    // let arr=[1,2,3];
+    // let newarr=arr.map((val)=>{
+    //     return val*val;
+    // });
+    // console.log(newarr);
 
 
