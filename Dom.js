@@ -14,6 +14,16 @@
 
                            /* 2. Practice  Question */
       //input->hello js ,from apna college  ->output->hello js ,from apna college  append,(apna collegee)
-  let h2=document.querySelector('h2');
+//   let h2=document.querySelector('h2');
 //   h2.innerText='apna college';  ->output-> Apna college
-    h2.innerText=h2.innerText+'from Apna college';
+    // h2.innerText=h2.innerText+'from Apna college';
+   
+
+                        /* practice  Question ->give unique name each div*/
+                        
+    let divs= document.querySelectorAll('.box');
+    let index=1;
+    for(let div of divs){
+     div.innerText=`first div ${index}`;
+     index++;
+     }
