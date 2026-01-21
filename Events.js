@@ -21,22 +21,37 @@ let div=document.querySelector("#parentBox");
 
      /*Remove AddeventLisner*/
   //store for removing Process
-const Handler=()=>{
-     console.log("Handler 3");
-}
 
-   div.addEventListener("click",()=>{
-    console.log("Handler 1");
-      });
 
-      div.addEventListener("click",()=>{
-    console.log("Handler 2");
-      });
-      div.addEventListener("click","Handler");
-      div.addEventListener("click",()=>{
-    console.log("Handler 4");
-      });
+// const Handler=()=>{
+//      console.log("Handler 3");
+// }
 
-      div.removeEventListener("click",'Handler');
+//    div.addEventListener("click",()=>{
+//     console.log("Handler 1");
+//       });
 
+//       div.addEventListener("click",()=>{
+//     console.log("Handler 2");
+//       });
+//       div.addEventListener("click","Handler");
+//       div.addEventListener("click",()=>{
+//     console.log("Handler 4");
+//       });
+
+//       div.removeEventListener("click",'Handler');
+
+           //Practice Question->change colour of screen while clicking on Btn
+
+   let Btn1=document.querySelector("#Btn1");
+   let theme="light";
+   Btn1.addEventListener("click",()=>{
+    if(theme=='light'){
+        theme="dark";
+        document.querySelector("Body").style.backgroundColor="white";
+    }else{
+        theme='light'
+         document.querySelector("Body").style.backgroundColor="black";
+    }
+   })
 
