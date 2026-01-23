@@ -21,19 +21,33 @@
 
                /* Classes*/
 
- class Car{
-    start(){
-        console.log("Start");
+//  class Car{
+//     start(){
+//         console.log("Start");
+//     }
+//     stop(){
+//         console.log("Stop");
+//     }
+//     //constructor->constructor invoke itself with object as newcarobj
+//     constructor(brand){
+//         console.log("Car is created");
+//         this.brand=brand;
+//     }
+//  }
+//  //obj creation->this obj conatins all class properties
+//  let newcar=new Car("fortuner");
+// //  console.log("new car",newcar);
+
+
+                /*Inheritance*/
+
+    class parent{
+        hello(){
+              console.log("Hello");
+        }
     }
-    stop(){
-        console.log("Stop");
-    }
-    //constructor->constructor invoke itself with object as newcarobj
-    constructor(brand){
-        console.log("Car is created");
-        this.brand=brand;
-    }
- }
- //obj creation->this obj conatins all class properties
- let newcar=new Car("fortuner");
-//  console.log("new car",newcar);
+      //inherit parent properties into child
+   class child extends parent {};
+   let obj=new child();
+   console.log(obj);
+   console.log(obj.hello());
