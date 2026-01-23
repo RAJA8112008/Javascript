@@ -41,13 +41,31 @@
 
                 /*Inheritance*/
 
-    class parent{
-        hello(){
-              console.log("Hello");
-        }
+//     class parent{
+//         hello(){
+//               console.log("Hello");
+//         }
+//     }
+//       //inherit parent properties into child
+//    class child extends parent {};
+//    let obj=new child();
+//    console.log(obj);
+//    console.log(obj.hello());
+
+class Person{
+    eat(){
+        console.log("Eat");
     }
-      //inherit parent properties into child
-   class child extends parent {};
-   let obj=new child();
-   console.log(obj);
-   console.log(obj.hello());
+
+     sleep(){
+        console.log("Sleep");
+    }
+}
+
+class Engineer extends Person{
+    work(){
+        console.log("Problem solving");
+    }
+}
+let rahulobj=new Engineer();
+console.log(rahulobj)
