@@ -68,4 +68,23 @@ class Engineer extends Person{
     }
 }
 let rahulobj=new Engineer();
-console.log(rahulobj)
+console.log(rahulobj);
+ 
+
+           /*Super */
+           //To acees the parent constructor in child if both have constructor
+
+           /*Practice Question*/
+           class user{
+            constructor(name,mail){
+                this.name=name;
+                this.mail=mail;
+            }
+            UserDate(){
+                console.log("User Data");
+            }
+           }
+           let user1=new user('rahul','abc@gmail.com');
+           let user2=new user('ram','xyz@gmail.com');
+           console.log(user1);
+
